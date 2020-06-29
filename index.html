@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Exchange Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Top Nav Menu starts -->
+    <div class="topnav">
+      <a href="#" class="active">Bookexchange.com</a>
+      <div id="myLinks">
+        <a href="#">Categories</a>
+        <a href="#">Sign in / Sign Up</a>
+        <a href="#">How it works</a>
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+    <!--Top Nav Menu ends-->
+
+    <!-- <nav>
+      <div class="wrapper">
+        <ul>
+          <li><a class="logo" href="#">Bookexchange.com</a></li>
+          <li>
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </li>
+          <li><a href="#">Categories |</a></li>
+          <li><a href="#">Sign in /</a> <a href="#"> Sign Up |</a></li>
+          <li><a href="#">How it works</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Give books away & Get books you want!</h1>
+        <h3>Exchange Books - Save money!</h3>
+        <a href="#" class="button button1">Join us now!</a>
+        <div>
+          <br />
+          <hr style="width: 30%;" />
+        </div>
+      </div>
+    </div>
+    <div class="hero1">
+      <div class="hero-text">
+        <h2>How it works</h2>
+        <h5>
+          We will help you to free up some space and save money, by giving away
+          the books you no longer need and get books you really want.
+        </h5>
+        <div class="asside">
+          <div class="asside-item">
+            <div class="checkmark">
+              <svg class="lnr lnr-checkmark-circle">
+                <use xlink:href="#lnr-checkmark-circle"></use>
+              </svg>
+            </div>
+            <div class="option">
+              <h3>Offer</h3>
+              <p>the books you want to give away</p>
+            </div>
+          </div>
+          <div class="asside-item">
+            <div class="checkmark">
+              <svg class="lnr lnr-checkmark-circle">
+                <use xlink:href="#lnr-checkmark-circle"></use>
+              </svg>
+            </div>
+            <div class="option">
+              <h3>Receive requests</h3>
+              <p>from the other members for your books</p>
+            </div>
+          </div>
+          <div class="asside-item">
+            <div class="checkmark">
+              <svg class="lnr lnr-checkmark-circle">
+                <use xlink:href="#lnr-checkmark-circle"></use>
+              </svg>
+            </div>
+            <div class="option">
+              <h3>Give/Send</h3>
+              <p>your books and receive points</p>
+            </div>
+          </div>
+          <div class="asside-item">
+            <div class="checkmark">
+              <svg class="lnr lnr-checkmark-circle">
+                <use xlink:href="#lnr-checkmark-circle"></use>
+              </svg>
+            </div>
+            <div class="option">
+              <h3>Request</h3>
+              <p>the books you like from others with your points</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr style="width: 98%;" />
+      </div>
+    </div>
+    <div class="hero2">
+      <div class="hero-text">
+        <h2>Top Categories</h2>
+        <h5>
+          We will help you to free up some space and save money, by giving away
+          the books you no longer need and get books you really want.
+        </h5>
+      </div>
+      <div class="carousel">
+        <div class="carousel_piece">
+          <img
+            class="carousel_image"
+            src="img/devochka-beret-pliushevyi-mishka-medvezhonok-kniga-pled-vols.jpg"
+            alt="category1"
+          />
+        </div>
+        <div class="carousel_piece">
+          <img
+            class="carousel_image"
+            src="img/devochka-beret-pliushevyi-mishka-medvezhonok-kniga-pled-vols.jpg"
+            alt="category2"
+          />
+        </div>
+        <div class="carousel_piece">
+          <img
+            class="carousel_image"
+            src="img/devochka-beret-pliushevyi-mishka-medvezhonok-kniga-pled-vols.jpg"
+            alt="category3"
+          />
+        </div>
+      </div>
+      <br />
+      <hr style="width: 98%;" />
+    </div>
+    <div class="hero3">
+      <div class="hero-text">
+        <h2>Get In Touch</h2>
+        <h5>
+          In case if you have any doubts or suggestions feel free to reach us
+          out!
+        </h5>
+        <div class="contact_us">
+          <form action="https://formspree.io/FORM_ID" method="POST">
+            <div class="field">
+              <label>
+                Your Name:
+                <input type="text" name="name" />
+              </label>
+            </div>
+            <div class="field">
+              <label>
+                Your Email:
+                <input type="email" name="_replyto" />
+              </label>
+            </div>
+            <div class="field">
+              <label>
+                Message:
+                <textarea name="message"></textarea>
+              </label>
+            </div>
+            <div class="field">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+        <br />
+        <hr style="width: 98%;" />
+      </div>
+    </div>
+    <div class="hero4">
+      <div class="hero-text">
+        <h2>Follow us:</h2>
+        <h5>
+          Stay up to date & be part of our cummunity!
+        </h5>
+      </div>
+      <div class="icons">
+        <a href="#"><img src="img/facebook.png" alt="facebook logo" /> </a>
+        <a href="#"
+          ><img src="img/instagram-sketched.png" alt="instagram logo"
+        /></a>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <ul>
+          <li><a href="#">Features |</a></li>
+          <li><a href="#">About |</a></li>
+          <li><a href="#">Contact </a></li>
+        </ul>
+        <br />
+        <hr style="width: 30%;" />
+        <p>©2020 Bookexchange.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
