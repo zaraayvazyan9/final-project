@@ -112,7 +112,7 @@ p {
   text-align: center;
 }
 .asside {
-  margin: 20px 0 170px 0;
+  margin: 20px 9px 170px 15px;
 }
 .asside-item {
   text-align: center;
@@ -232,6 +232,7 @@ footer ul {
 footer ul li {
   color: rgb(78, 69, 75);
   padding: 0 0 0 20px;
+  font-weight: lighter;
 }
 footer p {
   padding-top: 30px;
