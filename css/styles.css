@@ -9,13 +9,24 @@ a {
   text-decoration: none;
   color: rgb(78, 69, 75);
 }
-/* .active {
-  font-size: 18px;
-  color: rgb(78, 69, 75);
-  position: absolute;
-  left: 0%;
-} */
-
+h2 {
+  margin-top: 0;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: lighter;
+}
+h5 {
+  margin-top: 0;
+  padding: 0 10px 30px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+p {
+  font-weight: lighter;
+}
+/* topnav styling starts */
 .topnav {
   overflow: hidden;
   background-color: #ecdfdf;
@@ -70,6 +81,7 @@ a {
   color: white;
 }
 
+/* hero section styling starts */
 .hero {
   width: 100%;
   padding: 20px;
@@ -82,33 +94,12 @@ a {
   overflow: hidden;
 }
 
-.hero1 {
-  background: #f8f8f8;
-}
-
 .hero-text h1,
 h3 {
   margin-top: 0;
   margin-bottom: 24px;
   font-weight: lighter;
   text-align: center;
-}
-h2 {
-  margin-top: 0;
-  padding-top: 70px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-weight: lighter;
-}
-h5 {
-  margin-top: 0;
-  padding: 0 10px 30px;
-  text-align: center;
-  font-weight: lighter;
-  font-style: italic;
-}
-p {
-  font-weight: lighter;
 }
 .asside {
   margin: 20px 0 170px 0;
@@ -147,6 +138,23 @@ p {
   color: gray;
   z-index: 9;
 }
+
+/* hero1 section checkmark styling starts */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-checkmark-circle {
+  color: #606060;
+  font-size: 53px;
+  align-items: center;
+}
+
+/* hero2 section carousel styling starts */
 .carousel {
   display: flex;
   justify-content: space-between;
@@ -158,6 +166,7 @@ p {
   width: 100%;
 }
 
+/* hero3 section contact form styling starts */
 .contact_us {
   display: flex;
   justify-content: center;
@@ -170,6 +179,8 @@ p {
   font-weight: lighter;
 }
 
+/* hero4 section incons styling starts */
+
 .icons {
   display: flex;
   justify-content: center;
@@ -180,6 +191,8 @@ p {
   height: 60px;
   margin: 20px;
 }
+
+/* footer styling starts */
 
 footer {
   background-color: #ecdfdf;
@@ -203,28 +216,6 @@ footer p {
   text-align: center;
 }
 
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr-checkmark-circle {
-  color: #606060;
-  font-size: 53px;
-  align-items: center;
-}
-
 @media (min-width: 768px) {
   .asside {
     display: flex;
@@ -235,40 +226,6 @@ footer p {
   }
 }
 @media (min-width: 1200px) {
-  /* .wrapper {
-  margin: 0 auto;
-  display: inline;
-} */
-  /* .topnav {
-    background: #ecdfdf;
-    z-index: -1;
-    padding: 20px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 9;
-  }
-  .topnav a .icon {
-    display: none;
-  }
-
-  .topnav #myLinks {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    position: relative;
-  }
-
-  .topnav #myLinks a {
-    padding: 0 0 0 20px;
-  }
-  .topnav #myLinks form button {
-    background-color: transparent;
-    margin-left: -36px;
-    border-radius: 40px;
-    border-color: transparent;
-  } */
   .asside {
     flex-wrap: nowrap;
   }
