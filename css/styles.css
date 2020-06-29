@@ -9,9 +9,19 @@ a {
   text-decoration: none;
   color: rgb(78, 69, 75);
 }
+
+h1 {
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+
+}
+
 h2 {
   margin-top: 0;
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 10px;
   text-align: center;
   font-weight: lighter;
@@ -38,7 +48,7 @@ p {
 }
 
 .topnav a {
-  color: black;
+  color: #5f5f5f;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -89,13 +99,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #ecdfdf, #fde7b4, #ecdfdf);
+  background-image: url(https://img5.goodfon.ru/original/1440x900/2/69/nnnnn-bbbbbbb-vvvvv-cccccc-ft-dddddd-dsssssssssss.jpg);
+  background-position: bottom;
   z-index: -1;
   overflow: hidden;
 }
 
-.hero-text h1,
-h3 {
+.hero-text h3 {
   margin-top: 0;
   margin-bottom: 24px;
   font-weight: lighter;
@@ -161,9 +171,18 @@ h3 {
 }
 .carousel .carousel_piece {
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
 }
+
 .carousel .carousel_piece .carousel_image {
   width: 100%;
+  opacity: 0.8;
+}
+.carousel .carousel_piece .carousel_image:hover {
+  opacity: 1.0;
 }
 
 /* hero3 section contact form styling starts */
@@ -173,10 +192,16 @@ h3 {
 }
 .contact_us .field {
   padding: 20px;
-  text-align: end;
+  text-align: start;
 }
 .contact_us .field label {
   font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_us .field input {
+  width: 100%;
 }
 
 /* hero4 section incons styling starts */
@@ -212,6 +237,7 @@ footer p {
   padding-top: 30px;
   padding-left: 40px;
   font-size: 18px;
+  font-weight: lighter;
   color: rgb(78, 69, 75);
   text-align: center;
 }
@@ -224,23 +250,36 @@ footer p {
   .asside-item {
     flex: 1 0 50%;
   }
+  .contact_us .field input {
+    width: 500px;
+  }
+  .contact_us .field textarea {
+    width: 500px;
 }
-@media (min-width: 1200px) {
+
+@media (min-width: 1270px) {
+  h {
+    font-size: 48px;
+  }
+
+  p {
+    text-align: left;
+  }
+
   .asside {
     flex-wrap: nowrap;
   }
+
   .asside-item {
     flex: 1 0 auto;
     display: flex;
     align-items: flex-start;
   }
-  .option h3,
-  p {
-    text-align: left;
-  }
+
   .contact_us .field input {
     width: 500px;
   }
+
   .contact_us .field textarea {
     width: 500px;
   }
